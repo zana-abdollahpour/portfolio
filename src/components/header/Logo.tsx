@@ -5,7 +5,7 @@ export default function Logo() {
   return (
     <Link
       href="/"
-      className="w-fit cursor-pointer rounded-full p-2 transition-all duration-300 hover:scale-110 active:translate-y-1 active:scale-90"
+      className="z-20 w-fit cursor-pointer rounded-full p-2 transition-all duration-300 hover:scale-110 active:translate-y-1 active:scale-90"
     >
       <Image
         className="transition-all duration-700"
