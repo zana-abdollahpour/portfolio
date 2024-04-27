@@ -1,12 +1,12 @@
 "use client";
 
-import { type Dispatch, createContext, useEffect } from "react";
+import { type DispatchWithoutAction, createContext, useEffect } from "react";
 
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 
 interface DarkModeContext {
   isDarkMode: boolean;
-  toggleDarkMode: Dispatch<any>;
+  toggleDarkMode: DispatchWithoutAction;
 }
 
 const DarkModeContext = createContext<DarkModeContext | null>(null);
