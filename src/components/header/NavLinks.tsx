@@ -17,17 +17,17 @@ function MenuButton({ navIsOpen, onOpenNav }: MenuButtonProps) {
       onClick={() => onOpenNav()}
     >
       <div
-        className={`m-1 h-1 w-6 rounded-sm bg-blue-400 transition-all duration-700 ${
+        className={`m-1 h-1 w-6 rounded-sm bg-[var(--ham-menu)] transition-all duration-300 ${
           navIsOpen ? "translate-y-2 rotate-45" : ""
         }`}
       />
       <div
-        className={`m-1 h-1 w-6 origin-center rounded-sm bg-blue-400 transition-all duration-700 ${
+        className={`m-1 h-1 w-6 origin-center rounded-sm bg-[var(--ham-menu)] transition-all duration-300 ${
           navIsOpen ? "scale-0" : ""
         }`}
       />
       <div
-        className={`m-1 h-1 w-6 rounded-sm bg-blue-400 transition-all duration-700 ${
+        className={`m-1 h-1 w-6 rounded-sm bg-[var(--ham-menu)] transition-all duration-300 ${
           navIsOpen ? "-translate-y-2 -rotate-45" : ""
         }`}
       />
@@ -49,13 +49,13 @@ function MobileNav({
 }: MobileNavProps) {
   return (
     <nav
-      className={`absolute right-0 top-0 h-screen overflow-hidden bg-[var(--nav-menu-bg)] transition-all duration-500 ease-in sm:hidden ${
+      className={`absolute right-0 top-0 z-10 h-screen overflow-hidden bg-[var(--mob-nav-bg)] transition-all duration-[400ms] ease-in sm:hidden ${
         navIsOpen
-          ? "pointer-events-auto w-screen opacity-[0.98]"
+          ? "pointer-events-auto w-screen opacity-100"
           : "pointer-events-none w-0 opacity-0"
       }`}
     >
-      <ul className="flex flex-col items-center justify-center gap-12 pt-32 text-[var(--nav-link)]">
+      <ul className="flex flex-col items-center justify-center gap-12 pt-32 text-[var(--nav-text)]">
         {pages.map((page) => (
           <li
             key={page.name}
@@ -66,7 +66,7 @@ function MobileNav({
             }
             className={`text-xl transition-all ${
               page.path === currentPath
-                ? "animate-emerge font-bold underline underline-offset-8"
+                ? "animate-zoom font-bold underline underline-offset-8"
                 : "font-thin"
             }`}
           >
@@ -84,12 +84,14 @@ type DesktopNavProps = Pick<MobileNavProps, "pages" | "currentPath">;
 function DesktopNav({ pages, currentPath }: DesktopNavProps) {
   return (
     <nav className="ml-4 hidden sm:block">
-      <ul className="flex items-center justify-center gap-6 text-lg text-[var(--nav-link)]">
+      <ul className="group flex items-center justify-center gap-6 text-lg text-[var(--nav-text)]">
         {pages.map((page) => (
           <li
             key={page.name}
-            className={`transition-all duration-300 hover:scale-110 hover:opacity-100 active:opacity-25 ${
-              page.path === currentPath ? "scale-105" : "opacity-50"
+            className={`hover:animate-roll cursor-pointer rounded-full p-1 transition-all duration-300 hover:opacity-100 active:opacity-25 group-hover:[&:not(:hover)]:opacity-45 ${
+              page.path === currentPath
+                ? "text-xl opacity-100"
+                : " text-lg opacity-45"
             }`}
           >
             <Link href={page.path} className="p-1">
