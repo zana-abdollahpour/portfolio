@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 
 import { DarkModeProvider } from "@/contexts/DarkModeProvider";
@@ -9,6 +10,8 @@ export const metadata: Metadata = {
   description: "Frontend Developer & Designer",
 };
 
+const quicksand = Quicksand({ subsets: ["latin"], display: "swap" });
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <DarkModeProvider>
-        <body>
+        <body className={quicksand.className}>
           <Header />
           <div className="container mx-auto">{children}</div>
         </body>

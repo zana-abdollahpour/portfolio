@@ -31,6 +31,8 @@
 
   &,
   &.light-mode {
+    --body-bg: var(--cm-100);
+
     /* Header */
     --header-bg: var(--cm-100);
     --header-toggle: var(--cm-300);
@@ -39,10 +41,16 @@
   }
 
   &.dark-mode {
+    --body-bg: var(--cm-950);
+
     /* Header */
     --header-bg: var(--cm-950);
     --header-toggle: var(--cm-800);
     --mob-nav-bg: var(--cm-900);
     --nav-text: var(--cm-200);
   }
+}
+
+body {
+  background-color: var(--body-bg);
 }
