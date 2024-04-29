@@ -38,6 +38,11 @@
     --header-toggle: var(--cm-300);
     --mob-nav-bg: var(--cm-200);
     --nav-text: var(--cm-950);
+
+    /* Home Page */
+    --text-main: var(--cm-900);
+    --btn-bg: var(--cm-900);
+    --btn-text: var(--cm-100);
   }
 
   &.dark-mode {
@@ -48,6 +53,11 @@
     --header-toggle: var(--cm-800);
     --mob-nav-bg: var(--cm-900);
     --nav-text: var(--cm-200);
+
+    /* Home Page */
+    --text-main: var(--cm-50);
+    --btn-bg: var(--cm-200);
+    --btn-text: var(--cm-900);
   }
 }
 
