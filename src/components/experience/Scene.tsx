@@ -1,4 +1,4 @@
-import { CameraControls, Cloud, Clouds } from "@react-three/drei";
+import { Cloud, Clouds, OrbitControls } from "@react-three/drei";
 
 import Lights from "./Lights";
 
@@ -20,7 +20,13 @@ export default function Scene() {
       ))}
 
       <Lights />
-      <CameraControls />
+      <OrbitControls
+        enableDamping
+        enablePan
+        enableRotate
+        enableZoom={false}
+        rotateSpeed={0.1}
+      />
     </>
   );
 }

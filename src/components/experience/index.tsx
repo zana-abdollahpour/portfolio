@@ -7,7 +7,7 @@ import Scene from "./Scene";
 export default function Experience() {
   return (
     <Canvas
-      className="!fixed left-0 top-0 !-z-40 bg-[var(--experience-bg)]"
+      className="!fixed left-0 top-0 !-z-40 cursor-pointer bg-[var(--experience-bg)]"
       camera={{
         position: [0, 0, 4],
       }}
