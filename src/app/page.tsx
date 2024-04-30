@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import Experience from "@/components/experience";
+import MusicPlayer from "@/components/musicPlayer";
 
 export default function HomePage() {
   return (
@@ -11,8 +12,10 @@ export default function HomePage() {
             <span className="block text-9xl">Zana</span>
             <span className="text-5xl">Abdollahpour</span>
           </h1>
-          <h2 className="mb-2 text-xl">Frontend Developer | Designer</h2>
+          <h2 className="text-xl">Frontend Developer | Designer</h2>
         </div>
+
+        <MusicPlayer />
 
         <div className="mb-12 flex w-full justify-center gap-4 text-lg">
           <Link

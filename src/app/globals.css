@@ -43,6 +43,7 @@
     --text-main: var(--cm-900);
     --btn-bg: var(--cm-900);
     --btn-text: var(--cm-100);
+    --player-accent: var(--cm-800);
   }
 
   &.dark-mode {
@@ -58,9 +59,14 @@
     --text-main: var(--cm-50);
     --btn-bg: var(--cm-200);
     --btn-text: var(--cm-900);
+    --player-accent: var(--cm-500);
   }
 }
 
 body {
   background-color: var(--body-bg);
+}
+
+input[type="range"] {
+  accent-color: var(--player-accent);
 }
