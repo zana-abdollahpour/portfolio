@@ -31,13 +31,13 @@
 
   &,
   &.light-mode {
+    color: var(--cm-950);
     --body-bg: var(--cm-100);
 
     /* Header */
     --header-bg: var(--cm-100);
     --header-toggle: var(--cm-300);
     --mob-nav-bg: var(--cm-200);
-    --nav-text: var(--cm-950);
 
     /* Home Page */
     --text-main: var(--cm-900);
@@ -47,13 +47,13 @@
   }
 
   &.dark-mode {
+    color: var(--cm-200);
     --body-bg: var(--cm-950);
 
     /* Header */
     --header-bg: var(--cm-950);
     --header-toggle: var(--cm-800);
     --mob-nav-bg: var(--cm-900);
-    --nav-text: var(--cm-200);
 
     /* Home Page */
     --text-main: var(--cm-50);

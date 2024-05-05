@@ -22,7 +22,7 @@ export default function RootLayout({
       <DarkModeProvider>
         <body className={quicksand.className}>
           <Header />
-          <div className="container mx-auto">{children}</div>
+          <div className="container mx-auto pt-16">{children}</div>
         </body>
       </DarkModeProvider>
     </html>
