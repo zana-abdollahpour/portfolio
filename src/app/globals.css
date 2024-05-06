@@ -17,6 +17,7 @@
   --cm-150: #eedcb3;
   --cm-200: #ead39d;
   --cm-300: #e1c073; /* base */
+  --cm-350: #dab767;
   --cm-400: #d8ad49;
   --cm-500: #c4962a;
   --cm-600: #9a7621;
@@ -51,6 +52,10 @@
     --card-bg: var(--cm-150);
     --icons-fill: var(--cm-950);
     --portrait-bg: var(--cm-200);
+
+    /* Portfolio Page */
+    --project-bg: var(--cm-200);
+    --project-link: var(--cm-350);
   }
 
   &.dark-mode {
@@ -72,6 +77,10 @@
     --card-bg: var(--cm-900);
     --icons-fill: var(--cm-200);
     --portrait-bg: var(--cm-870);
+
+    /* Portfolio Page */
+    --project-bg: var(--cm-870);
+    --project-link: var(--cm-850);
   }
 }
 
