@@ -1,0 +1,76 @@
+{
+  "samplesData": [
+    {
+      "id": "403",
+      "title": "Omnifood",
+      "description": "Website of a fictional restaurant",
+      "techs": ["Vanilla JS", "OOP", "SASS"],
+      "imagePath": "/samples/Omnifood.png",
+      "link": "https://omnifood-zana-ap.netlify.app",
+      "isResponsive": true
+    },
+    {
+      "id": "404",
+      "title": "Forkify",
+      "description": "Recipe app for delicious foods!",
+      "techs": ["Vanilla JS", "OOP", "SASS", "core-js"],
+      "imagePath": "/samples/Forkify.png",
+      "link": "https://forkify-zana-ap.netlify.app",
+      "isResponsive": false
+    },
+    {
+      "id": "405",
+      "title": "Nexter",
+      "description": "Real estate consulting",
+      "techs": ["SASS", "CSS Flex"],
+      "imagePath": "/samples/Nexter.png",
+      "link": "https://nexter-zana-ap.netlify.app",
+      "isResponsive": true
+    },
+    {
+      "id": "406",
+      "title": "Trillo",
+      "description": "Hotel services and reservations",
+      "techs": ["SASS", "CSS Grid"],
+      "imagePath": "/samples/Trillo.png",
+      "link": "https://trillo-zana-ap.netlify.app",
+      "isResponsive": true
+    },
+    {
+      "id": "407",
+      "title": "Bankist",
+      "description": "Fictional Banking site",
+      "techs": ["Vanilla JS", "Vanilla CSS", "IntersectionObserver"],
+      "imagePath": "/samples/Bankist.png",
+      "link": "https://bankist-zana-ap.netlify.app/",
+      "isResponsive": false
+    },
+    {
+      "id": "408",
+      "title": "Natours",
+      "description": "Tours for discovering nature!",
+      "techs": ["Vanilla JS", "SASS"],
+      "imagePath": "/samples/Natours.png",
+      "link": "https://natours-zana-ap.netlify.app",
+      "isResponsive": true
+    },
+    {
+      "id": "409",
+      "title": "Bethany's",
+      "description": "A Pie-shop, one of the best! ",
+      "techs": ["Vanilla JS", "Vanilla CSS", "Bootstrap"],
+      "imagePath": "/samples/PieShop.png",
+      "link": "https://pieshop-zana-ap.netlify.app",
+      "isResponsive": true
+    },
+    {
+      "id": "410",
+      "title": "Mapty",
+      "description": "Exercise tracking app",
+      "techs": ["Vanilla JS", "Vanilla CSS", "Leaflet"],
+      "imagePath": "/samples/Mapty.png",
+      "link": "https://mapty-zana-ap.netlify.app",
+      "isResponsive": false
+    }
+  ]
+}
