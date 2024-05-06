@@ -1,0 +1,26 @@
+{
+  "skillSet1": [
+    "Fullstack Dev",
+    "TypeScript",
+    "JavaScript",
+    "HTML & CSS",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Responsive UI",
+    "Performance",
+    "Accessibility"
+  ],
+  "skillSet2": [
+    "Node.js",
+    "Express.js",
+    "Three.js",
+    "Mongoose ORM",
+    "MongoDB",
+    "Git",
+    "SWR",
+    "React Query",
+    "RESTful APIs",
+    "Supabase"
+  ]
+}

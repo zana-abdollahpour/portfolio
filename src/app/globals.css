@@ -14,6 +14,7 @@
 :root {
   --cm-50: #fcf9f1;
   --cm-100: #f3e6c7;
+  --cm-150: #eedcb3;
   --cm-200: #ead39d;
   --cm-300: #e1c073; /* base */
   --cm-400: #d8ad49;
@@ -22,7 +23,8 @@
   --cm-700: #705618;
   --cm-800: #46350f;
   --cm-850: #352708;
-  --cm-900: #130e00;
+  --cm-870: #1b1302;
+  --cm-900: #140f01;
   --cm-950: #0f0d04;
 
   /* Header */
@@ -44,6 +46,11 @@
     --btn-bg: var(--cm-900);
     --btn-text: var(--cm-100);
     --player-accent: var(--cm-800);
+
+    /* About Page */
+    --card-bg: var(--cm-150);
+    --icons-fill: var(--cm-950);
+    --portrait-bg: var(--cm-200);
   }
 
   &.dark-mode {
@@ -60,6 +67,11 @@
     --btn-bg: var(--cm-200);
     --btn-text: var(--cm-900);
     --player-accent: var(--cm-500);
+
+    /* About Page */
+    --card-bg: var(--cm-900);
+    --icons-fill: var(--cm-200);
+    --portrait-bg: var(--cm-870);
   }
 }
 
