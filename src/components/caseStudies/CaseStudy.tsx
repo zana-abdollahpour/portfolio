@@ -61,6 +61,10 @@ export default function CaseStudy({
         >
           Visit
         </Link>
+        <div className="my-8 ml-2 flex flex-col gap-3 border-l pl-4">
+          <h5 className="text-xl font-bold">Credentials</h5>
+          <Credentials credentials={credentials} />
+        </div>
       </div>
       <div className="w-full p-2">
         <div className="mb-6 rounded-xl border p-2">
