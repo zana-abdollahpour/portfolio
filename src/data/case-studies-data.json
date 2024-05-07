@@ -44,6 +44,46 @@
         "react-icons"
       ],
       "credentials": ["admin@admin.com", "admin2076"]
+    },
+    {
+      "id": 2,
+      "title": "Ruddit",
+      "isResponsive": true,
+      "description": "A small clone of the popular Reddit App (for learning purposes).",
+      "link": "",
+      "imagePath": "/case-studies/Ruddit.png",
+      "mainTechs": [
+        [
+          "Next.js",
+          " while React is a powerful library for building user interfaces, Next.js provides a more comprehensive framework with built-in features and server-side rendering, which can simplify the development process and enhance the performance of your web applications. Next.js uses server-side rendering, where the user interface is generated on the server, reducing the amount of JavaScript the browser needs to load. This can lead to improved performance and better SEO."
+        ],
+        [
+          "NextAuth",
+          "NextAuth.js is a complete open source authentication solution for Next.js applications. It is designed from the ground up to support Next.js and Serverless. For authentication using oAuth with github, this package is used."
+        ],
+        [
+          "Prisma",
+          "Prisma is a next-generation ORM that consists tools for auto-generated type safe queries, modeling and migration, and GUI. Foe better and easier usage of SQLite database this ORM handles queries in this project."
+        ],
+        [
+          "Zod",
+          "Zod is a TypeScript-first schema declaration and validation library. I'm using the term 'schema' to broadly refer to any data type, from a simple string to a complex nested object. Zod is designed to be as developer-friendly as possible. The goal is to eliminate duplicative type declarations. With Zod, you declare a validator once and Zod will automatically infer the static TypeScript type. It's easy to compose simpler types into complex data structures"
+        ],
+        [
+          "Typescript",
+          "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. In order to prevent bugs from happening and be type-safe, TypeScript is a better choice than vanilla JavaScript"
+        ],
+        [
+          "NextUI",
+          "NextUI is a UI library for React that helps you build beautiful and accessible user interfaces. Created on top of Tailwind CSS and React Aria. NextUI's primary goal is to streamline the development process, offering a beautiful and adaptable system design for an enhanced user experience."
+        ],
+        [
+          "SQLite",
+          "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite supports transactions, ensuring data integrity and consistency. It allows developers to work without a separate database server and eliminates the need for complex configurations."
+        ]
+      ],
+      "misc": ["framer-motion", "tailwind", "postcss"],
+      "credentials": []
     }
   ]
 }
