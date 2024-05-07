@@ -25,9 +25,8 @@ export default function MusicPlayer() {
   };
 
   return (
-    <div className="mx-auto my-8 flex h-full max-h-64 w-11/12 flex-col items-center justify-around rounded-3xl bg-white/10 text-[var(--text-main)] backdrop-blur-lg">
-      <h3 className="text-xl">Try this short piece of music</h3>
-      <span className="-mt-8 font-thin">Chainsaw Man - Reze Movie theme</span>
+    <div className="mx-auto my-8 flex h-full max-h-64 min-h-52 w-11/12 flex-col items-center justify-around rounded-3xl bg-white/10 text-[var(--text-main)] backdrop-blur-lg">
+      <h3 className="mt-4 font-thin">Chainsaw Man - Reze Movie theme</h3>
       <button type="button" className="h-16 w-16" onClick={handleTogglePlay}>
         {isPlaying ? (
           <FaPause className="h-full w-full animate-[pulse_0.3s_ease-in_1]" />
