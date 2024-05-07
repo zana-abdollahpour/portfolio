@@ -42,6 +42,9 @@
     --header-toggle: var(--cm-300);
     --mob-nav-bg: var(--cm-200);
 
+    /* Footer */
+    --footer-bg: var(--cm-150);
+
     /* Home Page */
     --text-main: var(--cm-900);
     --btn-bg: var(--cm-900);
@@ -66,6 +69,9 @@
     --header-bg: var(--cm-950);
     --header-toggle: var(--cm-800);
     --mob-nav-bg: var(--cm-900);
+
+    /* Footer */
+    --footer-bg: var(--cm-900);
 
     /* Home Page */
     --text-main: var(--cm-50);

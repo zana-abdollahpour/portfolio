@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { DarkModeProvider } from "@/contexts/DarkModeProvider";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Zana Abdollahpour",
@@ -23,6 +24,7 @@ export default function RootLayout({
         <body className={quicksand.className}>
           <Header />
           <div className="container mx-auto pt-16">{children}</div>
+          <Footer />
         </body>
       </DarkModeProvider>
     </html>
