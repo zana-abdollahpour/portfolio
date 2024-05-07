@@ -1,0 +1,49 @@
+{
+  "caseStudies": [
+    {
+      "id": 1,
+      "title": "Wild Oasis",
+      "isResponsive": false,
+      "description": "Admin dashboard, an internal application for managing a hotel or B&B business.",
+      "link": "https://zana-ap-the-wild-oasis.vercel.app",
+      "imagePath": "/case-studies/WildOasis.png",
+      "mainTechs": [
+        [
+          "Supabase",
+          "Supabase shines as an open-source alternative to Firebase, offering a comprehensive suite of features like real-time subscriptions, authentication, and auto-generated APIs, therefore chosen as the backend. Its seamless integration with PostgreSQL allows us to leverage the full power of SQL while enjoying the benefits of a modern, serverless environment."
+        ],
+        [
+          "PostgreSQL",
+          "PostgreSQL, on the other hand, is a testament to the power and flexibility of relational databases. Its robustness, ACID compliance, and support for a wide array of data types make it a reliable choice for complex applications. The fact that it's open-source and extensible only adds to its appeal."
+        ],
+        [
+          "Vite",
+          "Vite, which means “fast” in French, lives up to its name by offering lightning-fast cold server start and hot module replacement (HMR). Unlike traditional bundlers, Vite only compiles code as needed or “on demand”, which significantly speeds up the development process. Overall, Vite's speed, versatility, and ease of use make it an excellent choice for bundling React applications and a great alternative to Webpack."
+        ],
+        [
+          "React Query",
+          "React Query is an excellent library for managing server state in your React applications. It provides out-of-the-box support for caching, background updates, and stale data fetching, which can significantly improve the performance of your application. React Query's intuitive API makes it easy to fetch, cache, and update data in your React components without having to manage state or write reducers and actions. It also has robust error handling capabilities, making it easier to manage failed or slow network requests. Furthermore, React Query is flexible and works with any JavaScript backend that can send and receive JSON, making it a versatile choice for many projects. Overall, using React Query can help simplify data-fetching logic, making your code cleaner and easier to maintain. It's used here to fetch data from supabase and keep the app state synced, immediately after changing data for cabins and bookings."
+        ],
+        [
+          "React Hook Form",
+          "React Hook Form is a powerful tool for managing forms in React applications. Its primary advantage is its efficiency and minimalism. By leveraging React Hooks, it allows you to manage form state and validation with less code compared to other form libraries. It uses refs instead of state, which reduces the number of re-renders and improves performance. React Hook Form also integrates well with validation libraries like Yup and can be easily used with various UI libraries. Its API is intuitive, making it straightforward to use. These features make React Hook Form a popular choice for creating efficient, maintainable, and robust forms in React."
+        ],
+        [
+          "Recharts",
+          "Recharts.js is a powerful, composable charting library built specifically for React applications. It offers a range of features that make it an excellent choice for data visualization. Firstly, Recharts.js is built on top of SVG elements with a lightweight dependency on 3D submodules, ensuring reliable performance. Secondly, it allows developers to quickly build charts with decoupled, reusable React components. This means you can customize your chart by tweaking component props and even passing in custom components. Lastly, Recharts.js provides more flexibility in terms of modifying the appearance and layout of the charts, including the ability to create custom chart elements by composing smaller components. These features make Recharts.js a versatile and efficient tool for integrating charts into React applications."
+        ],
+        [
+          "Styled Components",
+          "Styled-components is a fantastic library for styling React applications. It leverages the power of JavaScript and CSS to provide a flexible and efficient solution for component-based styles. With styled-components, you can write actual CSS in your JavaScript, allowing for dynamic styling based on props and themes. This eliminates the mapping between components and styles, leading to more readable code. Styled-components also automatically handles vendor prefixing and ensures unique class names, eliminating common CSS issues. Moreover, it encapsulates styles, preventing unwanted side-effects in other components. If you're looking for a scalable, maintainable, and intuitive way to style your React applications, styled-components is definitely worth considering."
+        ]
+      ],
+      "misc": [
+        "date-fns",
+        "react-error-boundary",
+        "react-hot-toast",
+        "react-icons"
+      ],
+      "credentials": ["admin@admin.com", "admin2076"]
+    }
+  ]
+}
