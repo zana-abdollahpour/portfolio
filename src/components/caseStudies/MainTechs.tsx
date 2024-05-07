@@ -27,9 +27,9 @@ export default function MainTechs({ mainTechs }: { mainTechs: string[][] }) {
               className="relative mb-2 flex w-fit origin-left cursor-pointer items-center justify-center gap-2 transition-all hover:scale-105"
             >
               <h4 className="font-bold">{tech[0]}</h4>
-              <HiChevronDoubleDown className="mt-1 fill-[var(--text-main)] transition-all duration-300" />
+              <HiChevronDoubleDown className="mt-1 h-6 w-6 rounded-full bg-[var(--project-link)] fill-[var(--text-main)] p-1 transition-all duration-300" />
             </div>
-            <p className="pointer-events-none relative h-0 origin-top scale-y-0 overflow-hidden border-l pl-2 opacity-0 transition-all duration-300">
+            <p className="pointer-events-none relative h-0 origin-top scale-y-0 overflow-hidden border-l border-[var(--btn-bg)] pl-2 opacity-0 transition-all duration-300">
               {tech[1]}
             </p>
           </li>

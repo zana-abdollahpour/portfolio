@@ -49,24 +49,20 @@ export default function CaseStudy({
         >
           Visit
         </Link>
-        <div className="my-8 ml-2 flex flex-col gap-2 border-l pl-4">
+        <p className="mx-4 my-4 rounded-xl border border-[var(--btn-bg)] p-2">
+          {description}
+        </p>
+        <div className="mb-8 ml-4 flex flex-col gap-2 border-l border-[var(--btn-bg)] pl-4">
           <h5 className="text-xl font-bold">Credentials</h5>
           <Credentials credentials={credentials} />
         </div>
       </div>
 
-      <div className="w-full p-2">
-        <div className="mb-6 rounded-xl border p-2">
-          <p className="my-4">{description}</p>
-          <p className="mb-4 max-w-96">
-            Click on each Technology to read why it&apos;s chosen for the
-            project and what problem it solves.
-          </p>
-        </div>
+      <div className="w-full px-4">
         <MainTechs mainTechs={mainTechs} />
-        <hr className="bg-inherit" />
+        <hr className="border-[var(--btn-bg)] bg-inherit" />
         <h4 className="my-2 ml-2 font-bold">More Dependencies</h4>
-        <ul className="my-4">
+        <ul className="my-4 list-inside list-disc">
           {misc.map((item, i) => (
             <li key={i} className="ml-2">
               {item}

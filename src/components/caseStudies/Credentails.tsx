@@ -26,7 +26,7 @@ function CredentailsBox({
           : ""
       }`}
     >
-      <span className="mr-4 inline-flex items-center rounded-full border px-4 py-1">
+      <span className="mr-4 inline-flex items-center rounded-full border border-[var(--btn-bg)] px-4 py-1">
         <HiDocumentDuplicate className="mr-2 inline-block" />
         {fieldName}
       </span>
