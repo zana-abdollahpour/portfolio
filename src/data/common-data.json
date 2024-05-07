@@ -1,0 +1,39 @@
+{
+  "techs": [
+    {
+      "name": "Next.js",
+      "url": "https://nextjs.org"
+    },
+    {
+      "name": "Netlify",
+      "url": "https://www.netlify.com"
+    },
+    {
+      "name": "Three.js",
+      "url": "https://threejs.org"
+    }
+  ],
+  "pages": [
+    { "name": "Home", "path": "/" },
+    { "name": "About", "path": "/about" },
+    { "name": "Portfolio", "path": "/portfolio" }
+  ],
+  "socialMedia": [
+    {
+      "name": "Telegram",
+      "url": "https://t.me/LiGht_Z"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/zana-abdollahpour"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/zana-abdollahpour"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:zana.ap4@gmail.com"
+    }
+  ]
+}

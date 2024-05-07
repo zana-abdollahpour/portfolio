@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { type DispatchWithoutAction, useEffect, useState } from "react";
 
+import { pages } from "@/data/common-data.json";
+
 /* MenuButton */
 interface MenuButtonProps {
   navIsOpen: boolean;
@@ -88,7 +90,7 @@ function DesktopNav({ pages, currentPath }: DesktopNavProps) {
         {pages.map((page) => (
           <li
             key={page.name}
-            className={`hover:animate-roll cursor-pointer rounded-full p-1 transition-all duration-300 hover:opacity-100 active:opacity-25 group-hover:[&:not(:hover)]:opacity-45 ${
+            className={`cursor-pointer rounded-full p-1 transition-all duration-300 hover:animate-roll hover:opacity-100 active:opacity-25 group-hover:[&:not(:hover)]:opacity-45 ${
               page.path === currentPath
                 ? "text-xl opacity-100"
                 : " text-lg opacity-45"
@@ -115,12 +117,6 @@ export default function NavLinks() {
       ? body.classList.add("overflow-hidden")
       : body.classList.remove("overflow-hidden");
   }, [navIsOpen]);
-
-  const pages = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Portfolio", path: "/portfolio" },
-  ];
 
   return (
     <>
