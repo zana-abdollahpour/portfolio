@@ -52,6 +52,13 @@ export default function Credentials({
       });
   };
 
+  if (credentials.length === 0)
+    return (
+      <div className="w-fit rounded-full border  border-[var(--btn-bg)] px-4 py-1">
+        No credentials is required
+      </div>
+    );
+
   return (
     <>
       <ToastContainer

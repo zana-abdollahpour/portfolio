@@ -42,13 +42,19 @@ export default function CaseStudy({
             alt={title}
           />
         </div>
-        <Link
-          target="_blank"
-          href={link}
-          className="mx-auto w-10/12 max-w-96 rounded-full bg-[var(--project-link)] px-6 py-2 text-center text-xl transition-all hover:scale-95 hover:opacity-85 active:translate-y-1 active:scale-90 xl:w-11/12"
-        >
-          Visit
-        </Link>
+        {link ? (
+          <Link
+            target="_blank"
+            href={link}
+            className="mx-auto w-10/12 max-w-96 rounded-full bg-[var(--project-link)] px-6 py-2 text-center text-xl transition-all hover:scale-95 hover:opacity-85 active:translate-y-1 active:scale-90 xl:w-11/12"
+          >
+            Visit
+          </Link>
+        ) : (
+          <div className="mx-auto w-10/12 max-w-96 rounded-full bg-[var(--project-link)] px-6 py-2 text-center text-xl hover:cursor-not-allowed">
+            No Live link available
+          </div>
+        )}
         <p className="mx-4 my-4 rounded-xl border border-[var(--btn-bg)] p-2">
           {description}
         </p>
