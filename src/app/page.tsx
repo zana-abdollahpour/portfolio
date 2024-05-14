@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 
 import Experience from "@/components/experience";
@@ -34,7 +35,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      <Experience />
+      <Suspense>
+        <Experience />
+      </Suspense>
     </main>
   );
 }

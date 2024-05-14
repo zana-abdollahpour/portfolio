@@ -59,6 +59,9 @@
     /* Portfolio Page */
     --project-bg: var(--cm-200);
     --project-link: var(--cm-350);
+
+    /* NotFound page */
+    --home-btn-bg: var(--cm-350);
   }
 
   &.dark-mode {
@@ -87,6 +90,9 @@
     /* Portfolio Page */
     --project-bg: var(--cm-870);
     --project-link: var(--cm-850);
+
+    /* NotFound page */
+    --home-btn-bg: var(--cm-800);
   }
 }
 
